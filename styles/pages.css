@@ -1,0 +1,26 @@
+body {
+    background-color: cyan;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1, h3 {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+img {
+    width: auto;
+    height: 500px;
+}
+
+.text {
+    color: rgb(0, 87, 0);
+    font-size: 20px;
+}
+
