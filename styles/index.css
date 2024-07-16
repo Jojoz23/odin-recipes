@@ -7,15 +7,63 @@ body {
 
 #pbj {
     color: red;
+    display: inline-block;
+    margin: 35px;
+    margin-top: 75px;
+    border: 5px solid red;
+    padding: 10px;
+    width: 100px;
+}
+
+#pbj:hover {
+    color: white;
+    display: inline-block;
+    margin: 35px;
+    margin-top: 75px;
+    border: 5px solid red;
+    padding: 10px;
+    width: 100px;
+    background-color: red;
 }
 
 #cereal {
     color: white;
+    display: inline-block;
+    margin: 35px;
+    border: 5px solid white;
+    padding: 10px;
+    width: 100px;
+}
+
+#cereal:hover {
+    color: cyan;
+    display: inline-block;
+    margin: 35px;
+    border: 5px solid white;
+    padding: 10px;
+    width: 100px;
+    background-color: white;
 }
 
 #noodles {
-    color: brown;
+    color: brown; 
+    display: inline-block;
+    margin: 35px;
+    border: 5px solid brown;
+    padding: 10px;
+    width: 100px;
 }
+
+#noodles:hover {
+    color: white;
+    display: inline-block;
+    margin: 35px;
+    border: 5px solid brown;
+    padding: 10px;
+    width: 100px;
+    background-color: brown;
+}
+
 
 a.food {
     font-size: 30px;
@@ -24,4 +72,10 @@ a.food {
 
 li {
     color: rgb(0, 87, 0);
+    text-align: center;
+}
+
+h1 {
+    background-image: linear-gradient(90deg, white, cyan);
+    padding: 15px;
 }
